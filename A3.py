@@ -123,12 +123,5 @@ plt.title("Comportamiento de Flux a lo largo del tiempo")
 plt.xlabel("Tiempo")
 plt.ylabel("Flux (gamma cm^-2 s^-1)")
 plt.grid(True)
-# Gráfico de Sigma
-plt.subplot(2, 1, 2)
-plt.plot(times, sigma, marker="o", linestyle="-", color="red")
-plt.title("Comportamiento de Sigma a lo largo del tiempo")
-plt.xlabel("Tiempo")
-plt.ylabel("Sigma (desviaciones)")
-plt.grid(True)
-plt.tight_layout()
-plt.show()
+
+# Hola, solo es un comentario extra
